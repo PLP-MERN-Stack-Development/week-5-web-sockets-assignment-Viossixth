@@ -2,6 +2,64 @@
 # Real-Time Chat Application with Socket.io
 
 This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.
+## Setup Instructions
+
+Follow these steps to set up and run the real-time chat application locally:
+
+### 1. Clone the Repository
+
+```bash
+git clone <your-repo-url>
+cd week-5-web-sockets-assignment-Viossixth
+```
+
+### 2. Install Dependencies
+
+Install dependencies for both the client and server:
+
+```bash
+# In the root directory
+cd client
+npm install
+
+cd ../server
+npm install
+```
+
+### 3. Configure Environment Variables
+
+- Create a `.env` file in the `server` directory if required (refer to `Week5-Assignment.md` for details).
+- Set up any necessary environment variables such as `PORT` or database connection strings.
+
+### 4. Start the Development Servers
+
+Open two terminal windows/tabs:
+
+- **Start the server:**
+  ```bash
+  cd server
+  npm run dev
+  ```
+- **Start the client:**
+  ```bash
+  cd client
+  npm start
+  ```
+
+### 5. Access the Application
+
+- Open your browser and navigate to `http://localhost:3000` to use the chat application.
+
+### 6. Additional Notes
+
+- For advanced features or deployment, refer to the documentation and assignment instructions.
+- Ensure Node.js (v18+) and npm/yarn are installed on your system.
+
+
+
+## Project Summary
+
+This project is a real-time chat application built with React for the client and Node.js/Express with Socket.io for the server. It enables users to communicate instantly through web sockets, supporting features such as user authentication, multiple chat rooms, private messaging, real-time notifications, typing indicators, and read receipts. The application demonstrates the implementation of bidirectional communication between clients and server, providing a modern, interactive chat experience. The codebase is organized for scalability and maintainability, making it a solid foundation for further enhancements or deployment.
 
 ## Assignment Overview
 
